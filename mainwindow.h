@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QPainter>
 #include "qrencode.h"
+#include "generator.h"
 namespace Ui {
 class MainWindow;
 }
@@ -26,9 +27,9 @@ private slots: // Functions that deal with widgets' events.
     void on_comboBox_currentIndexChanged(int index);
     void on_pushButton_2_clicked();// To generate the code.
 private:
-    QRecLevel ECLEVEL(int lvl);
+//    QRecLevel ECLEVEL(int lvl);
     Ui::MainWindow *ui;
-    QRcode *q;
+    QRcode * q;
 protected:
     void paintEvent(QPaintEvent *event);
 };
