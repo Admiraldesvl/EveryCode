@@ -83,4 +83,3 @@ void MainWindow::paintEvent(QPaintEvent *event){
            }
         }
 }
-// Get the error correction level.
